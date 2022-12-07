@@ -113,6 +113,12 @@ padding: 20px 30px;
     font-size: 72px;
     line-height: 84px;
     color: #132238;
+    animation: hello-h1 3s alternate ;
+}
+@keyframes hello-h1 {
+    0%{
+        transform: translateX(-1000px);
+    }
 }
 .hello p{
     font-weight: 400;
@@ -122,6 +128,13 @@ padding: 20px 30px;
     width: 648px;
     height: 72px;
     padding: 24px 0;
+    animation: hello-p 4s alternate;
+}
+@keyframes hello-p {
+    0%{
+        transform: translateX(-1000px);
+    }
+
 }
 .hello button{
     padding: 12px 24px;
@@ -130,5 +143,86 @@ padding: 20px 30px;
     color: #FFFFFF;
     font-weight: 600;
     font-size: 16px;
+    margin-bottom: 100px;
+    transition: .4s;
+    animation: hello-btn 5s alternate;
+}
+@keyframes hello-btn {
+    0%{
+        transform: translateX(-1000px);
+    }
 
+}
+.hello button:hover{
+    transform: scale(1.1);
+    background: transparent;
+    border: 1px solid gray;
+    color: #A53DFF;
+}
+.cards{
+    display: flex;
+    animation: cards 5.7s alternate;
+}
+@keyframes cards {
+    0%{
+        transform: translateX(-1000px);
+    }
+
+}
+.card-block-one{
+cursor: pointer;
+    background: rgba(237, 216, 255, 0.5);
+    border-radius: 6px;
+    height: 106px;
+    width: 248px;
+transition: .4s;
+    border: 1px solid gray;
+    margin-left: 2px;
+}
+.card-block-one:hover{
+    transform: scale(1.1);
+    background: transparent;
+    border: 1px solid gray;
+}
+.card-block-one h3{
+text-align: center;
+margin-top: 10px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #424E60;
+}
+.card-block-one h4{
+text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #697484;
+    margin-top: 8px;
+}
+.hello{
+display: flex;
+    justify-content: space-between;
+}
+.hello img{
+    height: 636px;
+    width: 536px;
+    border-radius: 25px;
+    animation: hello-img 6s alternate;
+    /*box-shadow: 0 24px 116px rgba(43, 56, 76, 0.09);*/
+}
+@keyframes hello-img {
+    0%{
+        transform: scale(0.1);
+
+    }
+}
+#developer{
+    margin: 0 auto;
+    height: 728px;
+    width: 1320px;
+    padding: 40px 0;
+    background: #FFFFFF;
+    box-shadow: 0 36px 105px rgba(43, 56, 76, 0.1);
+    border-radius: 16px;
 }
