@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+#header {
+    padding: 40px 0;
+}
+
+.header-logo h1 {
+padding: 20px 30px;
+    background: #A53DFF;
+    border-radius: 100%;
+    font-weight: 600;
+    font-size: 32px;
+    color: #132238;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: header 2s alternate;
+}
+@keyframes header {
+0%{
+    transform: translateY(-1000px);
+}
+}
+
+
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+.header-logo h1{
+    transition: .4s;
+    cursor: pointer;
+    animation: header-logo-h1 2s alternate linear;
+
+}
+@keyframes header-logo-h1 {
+    0%{
+        transform: rotate(360deg);
+    }
+}
+.header-logo h1:hover{
+    transform: scale(1.1);
+    background: blanchedalmond;
+}
+.header-logo h2{
+    padding-left: 16px;
+    cursor: pointer;
+    transition: .4s;
+}
+.header-logo h2:hover{
+    transform: scale(1.1);
+    color: #132238;
+}
+.header nav a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    padding: 0 20px;
+    transition: .4s;
+}
+.header nav a:hover{
+    transform: scale(1.1);
+    color: lightslategrey;
+}
+.header nav button{
+    padding: 12px 24px ;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #A53DFF;
+    border-radius: 4px;
+    transition: .4s;
+    border: 1px solid lightslategrey;
+}
+.header nav button:hover{
+    transform: scale(1.1);
+    color: lightslategrey;
+    background: transparent;
+    border: 1px solid lightslategrey;
+}
+#hello{
+    padding: 40px 0;
+}
+.hello h1{
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 84px;
+    color: #132238;
+}
+.hello p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #556070;
+    width: 648px;
+    height: 72px;
+    padding: 24px 0;
+}
+.hello button{
+    padding: 12px 24px;
+    background: #A53DFF;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+
+}
