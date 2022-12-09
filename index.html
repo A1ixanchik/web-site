@@ -6,6 +6,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
           rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
 
 </head>
 <body>
@@ -23,10 +28,10 @@
             </div>
             <nav>
                 <a href="#header">Home</a>
-                <a href="">About</a>
-                <a href="">Process</a>
-                <a href="">Portfolio</a>
-                <a href="">Blog</a>
+                <a href="#developer">About</a>
+                <a href="#process">Process</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#blog">Blog</a>
                 <a href="">Services</a>
                 <button>
                     Contact
@@ -39,57 +44,363 @@
 <section id="hello">
     <div class="container">
         <div class="hello">
-        <div>
-            <h1>
-                Hello, I’m <br>
-                Kurmanbekov Alihan
-            </h1>
-            <p>
-                I'm a Freelance UI/UX Designer and Developer based in London, England. I strives to build immersive and
-                beautiful web applications through carefully crafted code and user-centric design.
-            </p>
-            <button>
-                Say Hello!
-            </button>
-            <div class="cards">
-                <div class="card-block-one">
-                    <h3>
-                        6 M.
-                    </h3>
-                    <h4>
-                        Experience
-                    </h4>
-                </div>
-                <div class="card-block-one">
-                    <h3>
-                        50+
-                    </h3>
-                    <h4>
-                        Project Completed
-                    </h4>
-                </div>
-                <div class="card-block-one">
-                    <h3>
-                        5
-                    </h3>
-                    <h4>
-                        Happy Client
-                    </h4>
-                </div>
+            <div>
+                <h1>
+                    Hello, I’m <br>
+                    Kurmanbekov Alihan
+                </h1>
+                <p>
+                    I'm a Freelance UI/UX Designer and Developer based in London, England. I strives to build immersive
+                    and
+                    beautiful web applications through carefully crafted code and user-centric design.
+                </p>
+                <button>
+                    Say Hello!
+                </button>
+                <div class="cards">
+                    <div class="card-block-one">
+                        <h3>
+                            6 M.
+                        </h3>
+                        <h4>
+                            Experience
+                        </h4>
+                    </div>
+                    <div class="card-block-one">
+                        <h3>
+                            50+
+                        </h3>
+                        <h4>
+                            Project Completed
+                        </h4>
+                    </div>
+                    <div class="card-block-one">
+                        <h3>
+                            5
+                        </h3>
+                        <h4>
+                            Happy Client
+                        </h4>
+                    </div>
 
+                </div>
             </div>
-        </div>
 
-            <img src="./img/man.png" alt="">
+
+            <img src="./img/meand.jpg" alt="">
+
         </div>
     </div>
 </section>
 <section id="developer">
     <div class="container">
-        <div class="developer">
+        <div class="developer ">
+            <div data-aos="flip-left" class="developer-img">
+                <img src="./img/meand.jpg" alt="">
+                <div data-aos="flip-down">
+                    <a href="">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <ion-icon name="logo-dribbble"></ion-icon>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                        <ion-icon name="logo-behance"></ion-icon>
 
+                    </a>
+                </div>
+            </div>
+            <div data-aos="flip-up" class="developer-text">
+                <h1>
+                    I am Professional User Experience Designer
+                </h1>
+                <p>
+                    I design and develop services for customers specializing creating stylish, modern websites, web
+                    services and online stores. My passion is to design digital user experiences.
+                </p>
+                <p>
+                    I design and develop services for customers specializing creating stylish, modern websites, web
+                    services.
+                </p>
+                <div data-aos="flip-right">
+                    <button>
+                        My Project
+                    </button>
+                    <button>
+                        <a href="">
+                            <ion-icon name="download-outline"></ion-icon>
+
+                        </a>
+                        Download CV
+                    </button>
+
+                </div>
+            </div>
         </div>
     </div>
 </section>
+<!--work-->
+<section id="process">
+    <div class="container">
+        <div data-aos="zoom-in-down" class="process">
+            <div class="process-text">
+                <h1  data-aos="zoom-in">
+                    Work Process
+                </h1>
+                <p data-aos="zoom-in-up" >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non,
+                    laoreet imperdiet orci. Mauris ultrices eget lorem ac vestibulum. Suspendis imperdiet,
+                </p>
+                <p data-aos="zoom-in-up">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non.
+                </p>
+            </div>
+        <div   class="process-gen-block">
+           <div class="process-gen">
+               <div  class="process-block">
+                   <a href="">
+                       <ion-icon name="document-text-outline"></ion-icon>
+                   </a>
+                   <h2>
+                       1. Research
+                   </h2>
+                   <h3>
+                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu.
+                   </h3>
+               </div>
+
+                <div class="process-block">
+                   <a href="">
+                       <ion-icon name="analytics-outline"></ion-icon>                   </a>
+                   <h2>
+                       2. Analyze
+                   </h2>
+                   <h3>
+                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu.
+                   </h3>
+               </div>
+<!--                <div class="process-block">-->
+<!--                   <a href="">-->
+<!--                       <ion-icon name="pencil-outline"></ion-icon>                   </a>-->
+<!--                   <h2>-->
+<!--                       3. Design-->
+<!--                   </h2>-->
+<!--                   <h3>-->
+<!--                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu.-->
+<!--                   </h3>-->
+<!--               </div>-->
+<!--  <div class="process-block">-->
+<!--                   <a href="">-->
+<!--                       <ion-icon name="laptop-outline"></ion-icon>                   </a>-->
+<!--                   <h2>-->
+<!--                       4. Launch-->
+<!--                   </h2>-->
+<!--                   <h3>-->
+<!--                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu.-->
+<!--                   </h3>-->
+<!--               </div>-->
+
+           </div>
+
+        </div>
+        </div>
+    </div>
+</section>
+<!--Portfolio-->
+<section id="portfolio">
+    <div class="container">
+        <div class="portfolio">
+      <center>
+          <h1 data-aos="zoom-in">
+              Portfolio
+          </h1>
+          <p data-aos="zoom-in-up">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration.
+          </p>
+      </center>
+            <div class="portfolio-gen">
+                <div class="portfolio-gen-block">
+
+                    <div  data-aos="zoom-in" class="portfolio-block">
+                        <img src="./img/color-2.png" alt="">
+                        <h3  data-aos="zoom-in-up" >
+                            Backend development
+                        </h3>
+                        <h2>
+                            Product Admin Dashboard
+                        </h2>
+                        <p>
+                            Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.
+                        </p>
+                        <button  data-aos="zoom-out-down">
+                            Case Study
+                            <a href="">
+                                <ion-icon name="arrow-forward-outline"></ion-icon>
+
+                            </a>
+                        </button>
+                    </div>
+                     <div  data-aos="zoom-in" class="portfolio-block">
+                        <img src="./img/dark.png" alt="">
+                        <h3>
+                            Backend development
+                        </h3>
+                        <h2>
+                            Product Admin Dashboard
+                        </h2>
+                        <p>
+                            Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.
+                        </p>
+                        <button  data-aos="zoom-out-down">
+                            Case Study
+                            <a href="">
+                                <ion-icon name="arrow-forward-outline"></ion-icon>
+
+                            </a>
+                        </button>
+                    </div>
+                     <div  data-aos="zoom-in" class="portfolio-block">
+                        <img src="./img/device.png" alt="">
+                        <h3>
+                            Backend development
+                        </h3>
+                        <h2>
+                            Product Admin Dashboard
+                        </h2>
+                        <p>
+                            Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.
+                        </p>
+                        <button  data-aos="zoom-out-down">
+                            Case Study
+                            <a href="">
+                                <ion-icon name="arrow-forward-outline"></ion-icon>
+
+                            </a>
+                        </button>
+                    </div>
+
+                    <div>
+                        
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+                   <div  data-aos="zoom-in" class="portfolio-gen-block">
+
+                    <div class="portfolio-block">
+                        <img src="./img/office.png" alt="">
+                        <h3>
+                            Backend development
+                        </h3>
+                        <h2>
+                            Product Admin Dashboard
+                        </h2>
+                        <p>
+                            Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.
+                        </p>
+                        <button  data-aos="zoom-out-down">
+                            Case Study
+                            <a href="">
+                                <ion-icon name="arrow-forward-outline"></ion-icon>
+
+                            </a>
+                        </button>
+                    </div>
+
+                     <div class="portfolio-block-two">
+                        <img src="./img/dors.png" alt="">
+                        <h3>
+                            Backend development
+                        </h3>
+                        <h2>
+                            Product Admin Dashboard
+                        </h2>
+                        <p>
+                            Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.
+                        </p>
+                        <button  data-aos="zoom-out-down">
+                            Case Study
+                            <a href="">
+                                <ion-icon name="arrow-forward-outline"></ion-icon>
+
+                            </a>
+                        </button>
+                    </div>
+                     <div class="portfolio-block">
+                        <img src="./img/flower.png" alt="">
+                        <h3>
+                            Backend development
+                        </h3>
+                        <h2>
+                            Product Admin Dashboard
+                        </h2>
+                        <p>
+                            Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.
+                        </p>
+                        <button  data-aos="zoom-out-down">
+                            Case Study
+                            <a href="">
+                                <ion-icon name="arrow-forward-outline"></ion-icon>
+
+                            </a>
+                        </button>
+                    </div>
+
+                    <div>
+
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!--blog-->
+<section id="blog">
+    <div class="container">
+        <div class="blog">
+         <center>
+             <h1  data-aos="zoom-out-down">
+                 Blog
+             </h1>
+             <p  data-aos="zoom-out-down">
+                 There are many variations of passages of Lorem Ipsum available,
+                 but the majority have suffered alteration.
+             </p>
+         </center>
+            <div class="block-swiper">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./img/sky.png" alt="">
+
+                        </div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        <div class="swiper-slide">Slide 4</div>
+                        <div class="swiper-slide">Slide 5</div>
+                        <div class="swiper-slide">Slide 6</div>
+                        <div class="swiper-slide">Slide 7</div>
+                        <div class="swiper-slide">Slide 8</div>
+                        <div class="swiper-slide">Slide 9</div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="./js/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
 </body>
 </html>
